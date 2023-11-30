@@ -70,10 +70,21 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Setup
 
-tbd
+- Install Docker
+- Install Sourcetree
+
+To use the command sail in Terminal, make alias first
+https://laravel.com/docs/10.x/sail#configuring-a-shell-alias
 
 ## Getting started
 Launch Docker
-Launch Herd
 cd LaravelTenMedia && ./vendor/bin/sail up
 http://localhost
+
+## Database
+
+Good Database viewer Tool for Laravel
+https://github.com/cuonggt/laravel-dibi
+
+## Misc
+- Scheme is in Folder DevDoc

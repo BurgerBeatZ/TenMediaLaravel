@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+use App\Http\Controllers\JobController;
+
+Route::get('add-student', [JobController::class, 'create']);
+Route::post('add-student', [JobController::class, 'store']);
